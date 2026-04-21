@@ -1,0 +1,76 @@
+.flex {
+    display: flex;
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.text-centre{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-black{
+    background-color: #121212;
+    color: white;
+}
+ .light-bg{
+    background-color: #1f1f1f;
+ }
+
+ .m-1{
+    margin: 5px;
+
+ }
+
+ .p-1{
+    padding: 10px;
+ }
+
+ .p-left{
+    padding-right: 40px;
+ }
+ .pointer{
+    cursor: pointer;
+ }
+
+ ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background-color: #282828;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 6px;
+    border: 3px solid #282828;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #282828;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #282828;
+}
+
+.card-container {
+    overflow-y: scroll;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 79vh;
+    width: 100%;
+}
+
+ 
+    

@@ -1,0 +1,31 @@
+id,title,artist,mood,genre,tempo,popularity,file
+1,Shape of You,Ed Sheeran,happy,pop,95,9,songs/1.mp3
+2,Someone Like You,Adele,sad,soul,65,8,songs/2.mp3
+3,Perfect,Ed Sheeran,romantic,pop,70,10,songs/3.mp3
+4,Believer,Imagine Dragons,energetic,rock,110,9,songs/4.mp3
+5,Let Her Go,Passenger,sad,folk,75,8,songs/5.mp3
+6,Happy,Pharrell Williams,happy,pop,90,10,
+7,Senorita,Shawn Mendes,romantic,pop,85,9,
+8,Demons,Imagine Dragons,calm,rock,80,7,
+9,Counting Stars,OneRepublic,happy,pop,100,8,
+10,Fix You,Coldplay,calm,rock,68,9,
+11,Blinding Lights,The Weeknd,happy,pop,102,10,
+12,Photograph,Ed Sheeran,romantic,pop,85,9,
+13,Lose Yourself,Eminem,energetic,rap,108,9,
+14,Thinking Out Loud,Ed Sheeran,romantic,pop,70,10,
+15,Happier,Marshmello,sad,pop,80,8,
+16,Stronger,Kanye West,energetic,rap,104,9,
+17,Stay,Rihanna,sad,ballad,64,8,
+18,On Top of the World,Imagine Dragons,happy,rock,95,9,
+19,Sunflower,Post Malone,happy,hip-hop,88,10,
+20,Love Story,Taylor Swift,romantic,country,78,10,
+21,Memories,Maroon 5,calm,pop,76,9,
+22,Cheap Thrills,Sia,happy,pop,100,9,
+23,Thunder,Imagine Dragons,energetic,rock,112,9,
+24,Shallow,Lady Gaga,romantic,ballad,70,9,
+25,Let It Go,Idina Menzel,inspirational,pop,82,10,
+26,Unstoppable,Sia,inspirational,pop,105,10,
+27,Counting Moments,Unknown Artist,calm,instrumental,60,7,
+28,See You Again,Wiz Khalifa,sad,rap,80,9,
+29,Adventure of a Lifetime,Coldplay,happy,rock,110,9,
+30,Perfect Symphony,Ed Sheeran,romantic,classical,72,10,

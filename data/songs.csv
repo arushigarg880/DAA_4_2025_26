@@ -1,0 +1,31 @@
+id,title,artist,mood,genre,tempo,popularity,file
+1,Shape of You,Ed Sheeran,happy,pop,95,9,songs/1.mp3
+2,Someone Like You,Adele,sad,soul,65,8,songs/2.mp3
+3,Perfect,Ed Sheeran,romantic,pop,70,10,songs/3.mp3
+4,Believer,Imagine Dragons,energetic,rock,110,9,songs/4.mp3
+5,Let Her Go,Passenger,sad,folk,75,8,songs/5.mp3    
+6,Happy,Pharrell Williams,happy,pop,90,10,songs/Pharrell Williams - Happy (Video).mp3
+7,Senorita,Shawn Mendes,romantic,pop,85,9,songs/Shawn Mendes, Camila Cabello - Señorita (Lyrics) Letra.mp3
+8,Demons,Imagine Dragons,calm,rock,80,7,songs/Imagine Dragons - Demons (Lyrics).mp3
+9,Counting Stars,OneRepublic,happy,pop,100,8,songs/OneRepublic - Counting Stars.mp3
+10,Fix You,Coldplay,calm,rock,68,9,songs/Fix You.mp3
+11,Blinding Lights,The Weeknd,happy,pop,102,10,songs/The Weeknd - Blinding Lights (Official Video).mp3
+12,Photograph,Ed Sheeran,romantic,pop,85,9,songs/Ed Sheeran - Photograph (Official Music Video).mp3
+13,Lose Yourself,Eminem,energetic,rap,108,9,songs/Eminem - Lose Yourself (Lyrics).mp3
+14,Thinking Out Loud,Ed Sheeran,romantic,pop,70,10,songs/Ed Sheeran - Thinking Out Loud (Official Music Video).mp3
+15,Happier,Marshmello,sad,pop,80,8,songs/Marshmello ft. Bastille - Happier (Official Music Video).mp3
+16,Stronger,Kelly Clarkson,energetic,pop,104,9,songs/Kelly Clarkson - Stronger (What Doesn't Kill You) [Official Video].mp3
+17,Stay,Rihanna,sad,ballad,64,8,songs/Rihanna - Stay (Lyrics) ft. Mikky Ekko.mp3
+18,On Top of the World,Imagine Dragons,happy,rock,95,9,songs/Imagine Dragons - On Top Of The World (Official Music Video).mp3
+19,Sunflower,Post Malone,happy,hip-hop,88,10,songs/Post Malone - Sunflower (Lyrics) ft. Swae Lee.mp3
+20,Love Story,Indila,romantic,country,78,10,songs/Indila - Love Story (Lyrics).mp3
+21,Memories,Maroon 5,calm,pop,76,9,songs/Maroon 5 - Memories (Official Video).mp3
+22,Cheap Thrills,Sia,happy,pop,100,9,songs/Sia - Cheap Thrills (Lyrics) ft. Sean Paul.mp3
+23,Thunder,Imagine Dragons,energetic,rock,112,9,songs/Imagine Dragons - Thunder (Lyrics).mp3
+24,Shallow,Lady Gaga,romantic,ballad,70,9,songs/Lady Gaga, Bradley Cooper - Shallow (Lyrics).mp3
+25,Let It Go,Idina Menzel,inspirational,pop,82,10,songs/Demi Lovato - Let It Go (from _Frozen_) (Official Video).mp3
+26,Unstoppable,Sia,inspirational,pop,105,10,songs/Sia - Unstoppable (Lyrics).mp3
+27,Counting Moments,Darkseed,calm,instrumental,60,7,songs/Darkseed - Counting Moments.mp3
+28,See You Again,Wiz Khalifa,sad,rap,80,9,songs/Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp3
+29,Adventure of a Lifetime,Coldplay,happy,rock,110,9,songs/Coldplay - Adventure Of A Lifetime (Lyrics).mp3
+30,Perfect Symphony,Ed Sheeran,romantic,classical,72,10,songs/Ed Sheeran - Perfect Symphony [with Andrea Bocelli] (Official Music Video).mp3

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+
+    <div class="top flex bg-black">
+        <div class="home">
+            <ul>
+                <div class="logo invert">
+                    <!-- CORRECTED PATH: icon/logo.svg -->
+                    <img src="icon/logo.svg" alt="Spotify">
+                </div>
+
+                <li>
+                    <div class="icon-circle">
+                        <!-- CORRECTED PATH: icon/home.svg -->
+                        <img class="invert" src="icon/home.svg" alt="Home">
+                    </div>
+                </li>
+
+                <li>
+
+                    <div class="search-bar flex text-centre">
+                        <!-- CORRECTED PATH: icon/search.svg -->
+                        <img class="invert icon " src="icon/search.svg" alt="Search">
+                        <input type="text" placeholder="What do you want to play? " class="search-input" />
+                        <button id="generate-btn" class="generate-btn">Generate</button>
+                        <div class="divider"></div>
+                        <!-- CORRECTED PATH: icon/search-extra.svg -->
+                        <img src="icon/search-extra.svg" class="icon invert " alt="stack icon" />
+                    </div>
+
+                </li>
+            </ul>
+
+
+            <!-- login and sign up yaha aega orr fir in dono me space between hoga -->
+            <div class="right-header">
+
+                <div class="box">
+                    <a class="hover" href="">Premium</a>
+                    <a class="hover" href="">Support</a>
+                    <a class="hover" href="">Download</a>
+                </div>
+
+                <div class="second-divider"> </div>
+
+                <div class="box2">
+
+                    <div class="app pointer">
+                        <!-- CORRECTED PATH: icon/download.svg -->
+                        <img class="invert " src="icon/download.svg" alt="">
+                        <p class="hover-2">Install App</p>
+                    </div>
+                    <div class="sign pointer" id="nav-signup-btn">
+                        <p>Sign up</p>
+                    </div>
+
+                    <div class="login " id="nav-login-btn">
+                        <button class="pointer">Log in</button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="left ">
+
+            <div class="library bg-black">
+
+                <div class="header">
+                    <h2> Your Library </h2>
+                    <!-- CORRECTED PATH: icon/plus-icon.svg -->
+                    <img class="invert" src="icon/plus-icon.svg" alt="plus icon">
+
+                </div>
+
+                <div class="song-list">
+
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Safety & Privacy Centre</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+
+                </div>
+                <div class="cookie">
+                    <a href="">Cookies</a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="spotify-playlist">
+
+
+                <div class="card-container">
+
+                    <!-- Popular artists (horizontal scrolling) -->
+                    <section class="artists-section">
+                        <h3 class="section-title">Popular artists</h3>
+                        <div class="artists-row">
+                            <div class="artist-card">
+                                <div class="artist-avatar"><img class="artist-img" src="https://lastfm.freetls.fastly.net/i/u/ar0/8ef5a2aec8cce82aa28488dbf2a0dbe7.jpg" alt="Pritam"></div>
+                                <div class="artist-name">Pritam</div>
+                                <div class="artist-sub">Artist</div>
+                            </div>
+                            <div class="artist-card">
+                                <div class="artist-avatar"><img class="artist-img" src="https://wallpapercave.com/wp/wp6373722.jpg" alt="A. R. Rahman"></div>
+                                <div class="artist-name">A. R. Rahman</div>
+                                <div class="artist-sub">Artist</div>
+                            </div>
+                            <div class="artist-card">
+                                <div class="artist-avatar"><img class="artist-img" src="https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto/c_crop%2Cg_custom/v1728462701/yiwwlrbe78ahhohjjmum.jpg" alt="Arijit Singh"></div>
+                                <div class="artist-name">Arijit Singh</div>
+                                <div class="artist-sub">Artist</div>
+                            </div>
+                            <div class="artist-card">
+                                <div class="artist-avatar"><img class="artist-img" src="https://alchetron.com/cdn/sachin-gupta-musician-a518c233-c5b1-4dce-a412-ace3a9e6876-resize-750.jpg" alt="Sachin-Jigar"></div>
+                                <div class="artist-name">Sachin-Jigar</div>
+                                <div class="artist-sub">Artist</div>
+                            </div>
+                            <div class="artist-card">
+                                <div class="artist-avatar"><img class="artist-img" src="https://i.scdn.co/image/ea8273ddb5ffdc112c02789103838cf0c5d3d3ab" alt="Vishal-Shekhar"></div>
+                                <div class="artist-name">Vishal-Shekhar</div>
+                                <div class="artist-sub">Artist</div>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+                    <!-- Albums section removed per request -->
+
+                </div>
+                <div class="playbar">
+                    <div class="song-info" style="display: none;"></div>
+                    <div class="playback-error" style="display:none;color:#ff6b6b;margin-top:6px;font-size:0.9rem;"></div>
+
+                    <div class="playbar-top">
+                        <div class="song-time-left">00:00</div>
+                        <div class="seekbar">
+                            <div class="seekbar-progress"></div>
+                            <div class="seekbar-circle"></div>
+                        </div>
+                        <div class="song-time-right">00:00</div>
+                    </div>
+
+                    <div class="song-buttons">
+                        <div class="song-buttons">
+                            <!-- CORRECTED PATH: icon/song-prev.svg -->
+                            <img id="previous" class="invert" src="icon/song-prev.svg" alt="Previous">
+                            <!-- CORRECTED PATH: icon/play.svg -->
+                            <img id="play" class="invert play-pause-button" src="icon/play.svg" alt="Play/Pause">
+                            <!-- CORRECTED PATH: icon/song-next.svg -->
+                            <img id="next" class="invert" src="icon/song-next.svg" alt="Next">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Modal Overlay -->
+    <div class="modal-overlay" id="auth-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-modal">&times;</button>
+            
+            <!-- Login Form -->
+            <form class="auth-form" id="login-form">
+                <h2 class="modal-title">Log in to Spotify</h2>
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="text" id="login-email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" placeholder="Password" required>
+                </div>
+                <div class="form-error" id="login-error"></div>
+                <button type="submit" class="auth-btn">Log In</button>
+                <div class="auth-toggle">
+                    Don't have an account? <span id="to-signup">Sign up for Spotify</span>
+                </div>
+            </form>
+
+            <!-- Signup Form -->
+            <form class="auth-form hidden" id="signup-form">
+                <h2 class="modal-title">Sign up to start listening</h2>
+                <div class="form-group">
+                    <label for="signup-name">Profile Name</label>
+                    <input type="text" id="signup-name" placeholder="What should we call you?" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-confirm">Confirm Password</label>
+                    <input type="password" id="signup-confirm" placeholder="Confirm your password" required>
+                </div>
+                <div class="form-error" id="signup-error"></div>
+                <button type="submit" class="auth-btn">Sign Up</button>
+                <div class="auth-toggle">
+                    Already have an account? <span id="to-login">Log in here</span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- NOTE: The script.js file has already been updated to use the 'icon/' paths. -->
+    <script src="script.js"></script>
+</body>
+
+</html>
